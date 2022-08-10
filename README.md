@@ -4,7 +4,7 @@
     ```bash
     git clone https://www.github.com/josh-programmieren/cardlib.git
     ```
-    ## Usage
+   ## Usage
     ```python
     from cardlib.card import Card
     from cardlib.deck import Deck
