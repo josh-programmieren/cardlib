@@ -20,3 +20,5 @@ jobs:
         run: python setup.py install
       - name: Run card test
         run: python test.py card
+      - name: Run deck test
+        run: python test.py deck

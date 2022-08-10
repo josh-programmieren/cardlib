@@ -34,6 +34,22 @@
             <code>Card.from_dict(dict:dict)</code>: returns a card from a dictionary
             <br> Param type: dict returns: Card
         </p>
+        <p id="deck-class" class="class">
+            <h2>cardlib.deck.Deck</h2>
+            Constructor: <code>Deck(cards:list)</code>
+            <br> cards: list of cards
+            <br>
+            <code>deck.shuffle():</code> shuffles the deck
+            <br>
+            <code>deck.serialize(filename:str)</code>: serializes the deck to a file
+            <br> Param type: str returns: None
+            <br>
+            <code>Deck.deserialize(filename:str)</code>: deserializes the deck from a file
+            <br> Param type: str returns: Deck
+            <br>
+            <code>deck.get_random_card()</code>: returns a random card from the deck
+            <br> Param type: None returns: Card
+        </p>
     </div>
 </body>
 

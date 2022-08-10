@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 name="cardlib"
-version="0.0.1"
+version="1.0.0"
 description="A library to manage learning cards"
 author="Joshua Rohmann"
 author_email="programmierjosh@yahoo.com"
