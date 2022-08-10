@@ -13,8 +13,10 @@ class Deck:
         random.shuffle(self.cards)
     def __str__(self) -> str:
         """Return a string representation of the deck"""
+        cards=""
         for card in self.cards:
-            print(card)
+            cards+=str(card)+"\n"
+        return cards
     def __len__(self) -> int:
         """Return the number of cards in the deck"""
         return len(self.cards)
