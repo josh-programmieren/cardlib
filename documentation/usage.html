@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usage</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/usage.css">
+</head>
+
+<body>
+    <h1>How to use</h1>
+    <div id="navigation-wrapper">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="description.html">What is it</a></li>
+            <li><a href="install.html">How to install</a></li>
+            <li><a href="usage.html">How to use</a></li>
+            <li><a href="api.html">API</a></li>
+            <li><a href="license.html">License</a></li>
+        </ul>
+    </div>
+    <div id="usage">
+        <p>
+            To use cardlib, you first need to <a href="install.html"> Install it</a>.
+            <br> Then you can import it into your python script.
+        </p>
+        <p>
+            <h2>Usage example</h2>
+            <code format="python">
+                from cardlib.card import Card
+                <br>
+                from cardlib.deck import Deck
+                <br>
+                card1 = Card("Question", "Answer")
+                <br>
+                card2 = Card("Question2", "Answer2")
+                <br>
+                deck = Deck([card1, card2])
+                <br>
+                deck.shuffle()
+                <br>
+                randcard=deck.get_random_card()
+                <br>
+                print(randcard.question)
+                <br>
+                print(randcard.answer)
+            </code>
+        </p>
+    </div>
+    <div id="next-topic">
+        <a href="api.html">Next topic: API</a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/api.css">
+</head>
+
+<body>
+    <h1>API</h1>
+    <div id="navigation-wrapper">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="description.html">What is it</a></li>
+            <li><a href="install.html">How to install</a></li>
+            <li><a href="usage.html">How to use</a></li>
+            <li><a href="api.html">API</a></li>
+            <li><a href="license.html">License</a></li>
+        </ul>
+    </div>
+    <div id="api">
+        <p id="card-class" class="class">
+            <h2>cardlib.card.Card</h2>
+            Constructor: <code>Card(front,back)</code>
+            <br> front: string, the question
+            <br> back: string, the answer
+            <br>
+            <code>card.to_dict()</code>: returns a dictionary with the question and answer
+            <br>
+            <code>Card.from_dict(dict:dict)</code>: returns a card from a dictionary
+            <br> Param type: dict returns: Card
+        </p>
+    </div>
+</body>
+
+</html>
