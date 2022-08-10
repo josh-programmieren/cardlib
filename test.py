@@ -1,7 +1,7 @@
 from cardlib.card import Card
 from cardlib.deck import Deck
 def test_card():
-    card=Card(1,1)
+    card=Card("Queen","Hearts")
     cdict=card.to_dict()
     print(cdict)
     card2=Card.from_dict(cdict)
